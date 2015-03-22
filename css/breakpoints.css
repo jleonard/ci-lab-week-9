@@ -1,0 +1,15 @@
+body{
+  background-color: #222;
+}
+
+@media all and (max-width: 50rem) {
+  body{
+    background-color: #000;
+  }
+}
+
+@media all and (max-width: 30rem) {
+  body{
+    background-color: #fff;
+  }
+}

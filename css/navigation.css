@@ -1,0 +1,49 @@
+/* nav : small device breakpoint
+-----------------------------------------*/
+@media all and (max-device-width: 30em) {}
+
+/* nav : small viewport
+--------------------------------*/
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #222;
+  width: 33.33%;
+  min-width: 250px;
+}
+
+/* nav : medium viewport
+--------------------------------*/
+@media all and (min-width: 59em){}
+
+/* nav : large viewport
+--------------------------------*/
+@media all and (min-width: 64em){}
+
+/* nav : x-large viewport
+--------------------------------*/
+@media all and (min-width: 100em){}
+
+/* icons 
+--------------------------------*/
+i{
+  font-style: normal;
+  display: inline-block;
+  font-size: 1.5rem;
+}
+
+.hamburger:before{
+  content: '\2630';
+  display: block;
+}
+
+.close:before{
+  content: '\d7';
+}
+
+@media all and (min-width: 50em) {
+  nav{
+    background-color: #d6d6d6;
+  }
+}
