@@ -1,15 +1,22 @@
-body{
-  background-color: #222;
+body{}
+img{}
+
+/* nav : small device breakpoint
+-----------------------------------------*/
+@media all and (max-device-width: 30em) {
 }
 
-@media all and (max-width: 50rem) {
-  body{
-    background-color: #000;
-  }
+/* nav : medium viewport
+--------------------------------*/
+@media all and (min-width: 59em){
 }
 
-@media all and (max-width: 30rem) {
-  body{
-    background-color: #fff;
-  }
+/* nav : large viewport
+--------------------------------*/
+@media all and (min-width: 64em){
+}
+
+/* nav : x-large viewport
+--------------------------------*/
+@media all and (min-width: 100em){
 }

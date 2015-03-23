@@ -6,16 +6,67 @@
     <title>Navigation</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/prism.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/section.css">
   </head>
   <body>
     <main>
+
       <nav>
-        <i class='hamburger'></i>
-        <i class='close'></i>
+        <i class='hamburger toggle'></i>
+        <i class='close toggle'></i>
+        <ul>
+          <li>Item One</li>
+          <li>Item Two</li>
+          <li>Item Three</li>
+        </ul>
       </nav>
+
+      <section>
+
+        <article>
+          <a name='requirements'></a>
+          <h2>Assumptions</h2>
+          <ol>
+
+            <li>
+              The breakpoints in this exercise are divided into two categories. 
+              <br/> 
+              <br/> 
+              <strong>Viewport</strong> breakpoints apply to the width of the browser window. Multiple viewport breakpoints mean the UI will adjust as the user resizes the browser.
+              <br/>
+              <br/> 
+              <strong>Device</strong> breakpoints apply to the width of the physical display. Device widths will change as a user rotates from landscape to portrait but are otherwise constrained.
+            </li>
+
+            <li>
+              For this exercise we are considering the following breakpoints.<br/><br/>
+              <ul>
+                <li><strong>small devices</strong> is a device breakpoint restricted to &lt;= 30em (480px) <strong>screen</strong> width. </li>
+                <li><strong>medium viewport</strong> is a viewport breakpoint applied to devices with &gt;= 59em (944px) <strong>viewport</strong> width. </li>
+                <li><strong>large viewport</strong> is a viewport breakpoint applied to devices with &gt;= 64em (1024px) <strong>viewport</strong> width. </li>
+                <li><strong>x-large viewport</strong> is a viewport breakpoint applied to devices with &gt;= 64em (1600px) <strong>viewport</strong> width. </li>
+              </ul>
+            </li>
+
+            <li>
+              Screen and viewport widths will be defined using <em><a href='https://css-tricks.com/why-ems/'>ems</a></em>. For this exercise an em is roughly equal to 16px. Use <a href='http://pxtoem.com/'>pxtoem.com</a> if you need convert measurements.
+              <br/><br/>
+              <strong>Why ems?</strong><br/>
+              We use ems based on a historical issue where pixel based breakpoints would break when the user zoomed in and out of the browser.
+            </li>
+
+          </ol>
+
+          <h2>On large and xl</h2>
+        </article>
+      </section>
+      
     </main>
+    <script type="text/javascript" src="js/prism.js"></script>
     <script type="text/javascript" src="js/toggle.js"></script>
   </body>
 </html>

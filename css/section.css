@@ -1,0 +1,12 @@
+section{
+  max-width: 75%;
+  padding-left: 80px;
+  padding-top: 32px;
+}
+
+section article{
+  float: left;
+  width: 50%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
