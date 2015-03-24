@@ -23,6 +23,15 @@ ol li{
   margin-bottom: 2rem;
 }
 
+code{
+  background-color: #f5f5f5;
+  color: #c30;
+}
+
+nav ul{
+  list-style-type: none;
+}
+
 /*
   css convenience classes
  -----------------------------------------*/

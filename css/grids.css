@@ -1,47 +1,19 @@
-.column{
-  padding: 3rem;
-  color: white;
-  font-size: 5rem;
+/* nav : small device breakpoint
+-----------------------------------------*/
+@media all and (max-device-width: 30em) {
 }
 
-/* column color scheme
-   ------------------------------ */
-.column:nth-child(1){
-  background-color: #FF851b;
+/* nav : medium viewports
+--------------------------------*/
+@media all and (min-width: 59em){
 }
 
-.column:nth-child(2){
-  background-color: #ff4136;
+/* nav : large viewports
+--------------------------------*/
+@media all and (min-width: 64em){
 }
 
-.column:nth-child(3){
-  background-color: #85144b;
-}
-
-.column:nth-child(4){
-  background-color: #f012BE;
-}
-
-.column:nth-child(5){
-  background-color: #B10DC9;
-}
-
-.column:nth-child(6){
-  background-color: #001f3f;
-}
-
-.column:nth-child(7){
-  background-color: #0074d9;
-}
-
-.column:nth-child(8){
-  background-color: #7fdbff;
-}
-
-.column:nth-child(9){
-  background-color: #39cccc;
-}
-
-.column:nth-child(10){
-  background-color: #3d9970;
+/* nav : x-large viewports
+--------------------------------*/
+@media all and (min-width: 100em){
 }

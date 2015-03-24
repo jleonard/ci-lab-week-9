@@ -1,0 +1,38 @@
+/* icons 
+--------------------------------*/
+i{
+  font-style: normal;
+  display: inline-block;
+  font-size: 1.5rem;
+}
+
+/* toggle icons 
+--------------------------------*/
+i.toggle{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.hamburger:before{
+  content: '\2630';
+  display: block;
+}
+
+.close:before{
+  content: '\d7';
+}
+
+/* nav icon visibility toggles
+--------------------------------*/
+nav .close{
+  display: none;
+}
+
+nav.active .close{
+  display: block;
+}
+
+nav.active .hamburger{
+  display: none;
+}

@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/prism.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <!--<link rel="stylesheet" href="css/navigation-answer.css">-->
     <link rel="stylesheet" href="css/navigation.css">
     <link rel="stylesheet" href="css/section.css">
   </head>
@@ -18,6 +20,7 @@
       <nav>
         <i class='hamburger toggle'></i>
         <i class='close toggle'></i>
+
         <ul>
           <li>Item One</li>
           <li>Item Two</li>
@@ -28,43 +31,19 @@
       <section>
 
         <article>
-          <a name='requirements'></a>
-          <h2>Assumptions</h2>
-          <ol>
+          <h1>
+            To the left is a <code>nav</code> element.
+          </h1>
+          <p>The hamburger and close icons in the top right corner toggle the nav's <code>active</code> class on and off.</p>
 
-            <li>
-              The breakpoints in this exercise are divided into two categories. 
-              <br/> 
-              <br/> 
-              <strong>Viewport</strong> breakpoints apply to the width of the browser window. Multiple viewport breakpoints mean the UI will adjust as the user resizes the browser.
-              <br/>
-              <br/> 
-              <strong>Device</strong> breakpoints apply to the width of the physical display. Device widths will change as a user rotates from landscape to portrait but are otherwise constrained.
-            </li>
+          <p><strong>Style this page so that the nav has clear expanded and collapsed states.</strong> Use <code>css/navigation.css</code> to do your work.</p>
 
-            <li>
-              For this exercise we are considering the following breakpoints.<br/><br/>
-              <ul>
-                <li><strong>small devices</strong> is a device breakpoint restricted to &lt;= 30em (480px) <strong>screen</strong> width. </li>
-                <li><strong>medium viewport</strong> is a viewport breakpoint applied to devices with &gt;= 59em (944px) <strong>viewport</strong> width. </li>
-                <li><strong>large viewport</strong> is a viewport breakpoint applied to devices with &gt;= 64em (1024px) <strong>viewport</strong> width. </li>
-                <li><strong>x-large viewport</strong> is a viewport breakpoint applied to devices with &gt;= 64em (1600px) <strong>viewport</strong> width. </li>
-              </ul>
-            </li>
+          <p>Use <code>transform: translateX(PERCENTAGE);</code> to move the nav on and off the screen.</p>
 
-            <li>
-              Screen and viewport widths will be defined using <em><a href='https://css-tricks.com/why-ems/'>ems</a></em>. For this exercise an em is roughly equal to 16px. Use <a href='http://pxtoem.com/'>pxtoem.com</a> if you need convert measurements.
-              <br/><br/>
-              <strong>Why ems?</strong><br/>
-              We use ems based on a historical issue where pixel based breakpoints would break when the user zoomed in and out of the browser.
-            </li>
-
-          </ol>
-
-          <h2>On large and xl</h2>
+          <p>Use the <mark>_transition</mark> snippet to apply motion to the nav.</p>
         </article>
       </section>
-      
+
     </main>
     <script type="text/javascript" src="js/prism.js"></script>
     <script type="text/javascript" src="js/toggle.js"></script>
